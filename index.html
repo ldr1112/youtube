@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <title>Youtube</title>
+  <script
+    src="https://kit.fontawesome.com/2d323a629b.js"
+    crossorigin="anonymous">
+  </script>
+</head>
+<body>
+  <!-- 헤더 부분 -->
+  <header>
+    <div class="logo">
+      <!-- logo -->
+      <i class="fab fa-youtube"></i>
+      <!-- 타이틀 -->
+      <span class="title">내튜브</span>
+    </div>
+    <div class="icons">
+      <i class="fas fa-search"></i>
+      <i class="fas fa-ellipsis-v"></i>
+    </div>
+  </header>
+
+  <!-- 비디오 -->
+  <section class="player">
+    <!-- controls: 플레이어 툴 -->
+    <video controls src="video/city.mp4"></video>
+  </section>
+
+  <!-- 비디오 정보 -->
+  <section class="info">
+    <!-- metadata -->
+    <div class="metadata">
+      <ul class="hashtags">
+        <li>#프론트엔드</li>
+        <li>#개발자</li>
+        <li>#html</li>
+        <li>#css</li>
+      </ul>
+      <div class="titleAndButton">
+        <span class="title">
+          html과 css를 사용하여 나만의 유투브 사이트를 만들어보자!(프론트엔드 입문, html, css, fontawesome 등)
+        </span>
+        <button class="moreBtn">
+          <i class="fas fa-caret-down"></i>
+        </button>
+      </div>
+      <div class="views">
+        <span class="views">1M views 1 days ago</span>
+      </div>
+    </div>
+    <!-- actions -->
+    <ul class="actions">
+      <li>
+        <button>
+          <i class="fas fa-thumbs-up"></i>
+          <span>100</span>
+        </button>
+      </li>
+      <li>
+        <button>
+          <i class="fas fa-thumbs-down"></i>
+          <span>0</span>
+        </button>
+      </li>
+      <li>
+        <button>
+          <i class="fas fa-share"></i>
+          <span>Share</span>
+        </button>
+      </li>
+      <li>
+        <button>
+          <i class="fas fa-plus"></i>
+          <span>Save</span>
+        </button>
+      </li>
+      <li>
+        <button>
+          <i class="fab fa-font-awesome-flag"></i>
+          <span>Report</span>
+        </button>
+      </li>
+    </ul>
+    <!-- channel -->
+    <div class="channel">
+      <div class="metadata">
+        <img class="img" src="images/me.jpg" alt="">
+        <div class="info">
+          <span class="name">동튜브</span>
+          <span class="subscribers">10M subscribers</span>
+        </div>
+      </div>
+      <button class="subscribe">subscribe</button>
+    </div>
+  </section>
+  <section class="upNext">
+    <span class="title">Up next</span>
+    <ul>
+      <li class="items">
+        <div class="img"><img src="images/bs.jpg" alt=""></div>
+        <div class="info">
+          <span class="title">
+            bootstrap을 이용하여 간단한 웹페이지 만들기 대작전!!!
+          </span>
+          <span class="name">
+            동튜브
+          </span>
+          <span class="views">
+            10M views
+          </span>
+        </div>
+        <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+      </li>
+      <li class="items">
+        <div class="img"><img src="images/vue.jpg" alt=""></div>
+        <div class="info">
+          <span class="title">
+            프론트엔드 기초입문 vue 기본개념 공부하기~
+          </span>
+          <span class="name">
+            동튜브
+          </span>
+          <span class="views">
+            30M views
+          </span>
+        </div>
+        <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+      </li>
+      <li class="items">
+        <div class="img"><img src="images/bsvue.jpg" alt=""></div>
+        <div class="info">
+          <span class="title">
+            bootstrap과 vuejs 사용하여 웹페이지 만들기~~
+          </span>
+          <span class="name">
+            동튜브
+          </span>
+          <span class="views">
+            5M views
+          </span>
+        </div>
+        <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+      </li>
+    </ul>
+  </section>
+</body>
+</html>
